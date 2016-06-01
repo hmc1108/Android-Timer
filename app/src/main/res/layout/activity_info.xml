@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hcmp.timer.Info"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical"
+    android:background="#ecf0f1">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:background="@drawable/avatar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NHÓM HCMP"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#d35400"
+        android:textIsSelectable="false"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp 14CNTN"
+        android:textColor="#2c3e50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gồm:"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huỳnh Minh Chương"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#2c3e50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Trung Hiếu"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#2c3e50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bùi Ngọc Minh"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#2c3e50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Hoàng Phương"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#2c3e50" />
+</LinearLayout>
